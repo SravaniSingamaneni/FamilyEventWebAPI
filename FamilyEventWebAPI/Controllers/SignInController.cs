@@ -34,7 +34,7 @@ namespace FamilyEventWebAPI.Controllers
                 }
                 if (resCls.ResponseStatus == "Success")
                 {
-                    PostUserData_Into_Login_TB(UName,PassWD);
+                    PostUserData_Into_Login_TB(UName, PassWD);
                 }
             }
             catch (Exception e) { throw e; }
