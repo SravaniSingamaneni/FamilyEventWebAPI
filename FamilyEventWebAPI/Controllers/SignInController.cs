@@ -13,7 +13,7 @@ namespace FamilyEventWebAPI.Controllers
 {
     public class SignInController : ApiController
     {
-        // GET: SignIn
+        // GET: SignIn API
         [HttpGet]
         [Route("API/CheckUserData")]
         public IHttpActionResult SignInData(string UName, string PassWD)
